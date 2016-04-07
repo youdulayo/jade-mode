@@ -373,10 +373,10 @@ region defined by BEG and END."
   (set (make-local-variable 'comment-start) "//- ")
   (set (make-local-variable 'comment-start-skip) "//-\\s-*")
 
-  (set (make-local-variable 'jade-tab-width) 2)
+  (set (make-local-variable 'jade-tab-width) 4)
   (set (make-local-variable 'indent-line-function) 'jade-indent-line)
   (set (make-local-variable 'indent-region-function) 'jade-indent-region)
-  (set (make-local-variable 'indent-tabs-mode) nil)
+  (set (make-local-variable 'indent-tabs-mode) t)
 
   ;; keymap
   (use-local-map jade-mode-map)

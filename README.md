@@ -1,3 +1,5 @@
+This fork makes jade-mode use 4 tabs instead of 2 spaces because I couldn't figure out a clean way to do it..
+
 # sws-mode
 [![MELPA](http://melpa.org/packages/jade-mode-badge.svg)](http://melpa.org/#/jade-mode)  [![MELPA Stable](http://stable.melpa.org/packages/jade-mode-badge.svg)](http://melpa.org/#/jade-mode)
 
